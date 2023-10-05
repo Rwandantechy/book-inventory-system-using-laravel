@@ -1,0 +1,24 @@
+/* reset body */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+    background-color: rgba(128, 128, 128, 0.215);
+}
+.form_container{
+  background-image:url('/public/back.png');
+ 
+  background-repeat:repeat-x;
+  width: 100%;
+  z-index:1111;
+  position: relative;
+  padding: 2rem;
+}
+.form{
+    width: 80%;
+    background-color: rgb(199, 33, 33);
+    margin: 2rem;
+}
