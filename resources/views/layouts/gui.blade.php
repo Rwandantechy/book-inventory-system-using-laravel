@@ -16,9 +16,9 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 </head>
 
-<body style="background-color:rgba(128, 128, 128, 0.315);">
+<body style="background-image:url({{ asset('images/back.png') }});">
 
-    <header class="container-fluid p-4 bg-info text-white mr-5">
+    <header  class="container-fluid p-4 bg-info text-white mr-5">
         <nav class="navbar row navbar-expand-lg navbar-dark  d-flex justify-content-between">
 
             <ul style="list-style: none;">
@@ -28,7 +28,7 @@
             </ul>
             <div style="list-style: none;" class="d-flex p-3 justify-content-evenly">
                 <li class="mr-3 text-white bold">
-                    <h4>niyinnocent2027@gmail.com  |</h4>
+                    <h4>niyinnocent2027@gmail.com |</h4>
                 </li>
                 <li> <button class="btn b text-danger">
                         <h5>Logout</h5>

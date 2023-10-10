@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\BookController;
+use App\Livewire\Pagination;
 
 Route::get('/', function () {
     return view('welcome');
@@ -10,6 +11,11 @@ Route::get('/', function () {
 Route::get('/create', function () {
     return view('books.create');
 });
+// Route file
+Route::get('/book-covers', function() {
+    return view('book-covers');
+});
+Route::get('/pagination', Pagination::class)->name('pagination');
 // routes for getting all the books
 Route::get('/books', [BookController::class, 'index'])->name('books.allbooks');
 //editing the book with existing details

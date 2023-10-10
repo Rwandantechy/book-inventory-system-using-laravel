@@ -4,7 +4,7 @@
 
 
 <br><br>
-<form class="bg-light border border-dark rounded shadow-lg border-dark-4 p-4" action="{{ route('store') }}" method="POST"  enctype="multipart/form-data">
+<form   class="bg-light border border-dark rounded bg-primary shadow p-3 mb-5 border-dark-4 p-4" action="{{ route('store') }}" method="POST"  enctype="multipart/form-data">
     @csrf
     <!-- Validation Errors -->
     @if($errors->any())
